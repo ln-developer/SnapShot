@@ -1,0 +1,32 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  max-width: 6rem;
+}
+
+.linkStyleLight {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.linkStyleDark {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.avatarImg {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.userName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

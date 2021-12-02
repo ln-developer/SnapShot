@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 12rem;
+}
+
+.homeBtn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+.homeBtn:hover {
+  cursor: pointer;
+}

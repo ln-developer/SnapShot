@@ -1,0 +1,73 @@
+.galleryContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.galleryItem {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.galleryItem .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.galleryItem .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.galleryItem:hover .image img {
+  transform: scale(1.1);
+}
+
+.galleryItem .author {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  z-index: 0;
+  /* transition: 0.3s ease-in-out; */
+  backdrop-filter: blur(5px) saturate(1.8);
+}
+.galleryItem:hover .author {
+  opacity: 1;
+  width: 100%;
+  cursor: default;
+}
+
+.authorBlock {
+  display: flex;
+  align-items: center;
+}
+
+.authorBlock img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.authorBlock .authorName {
+  color: white;
+}
+
+.likeBlock button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.likeCount {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}

@@ -1,0 +1,14 @@
+.loadMoreBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: none;
+}
+
+.lightScheme {
+  border: 1px solid rgb(0, 0, 0);
+}
+.darkScheme {
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}

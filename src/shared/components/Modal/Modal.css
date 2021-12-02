@@ -1,0 +1,88 @@
+.modalContainer {
+  width: 50vw;
+  height: 98vh;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.modalItemLight {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.modalItemDark {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(18, 18, 18);
+}
+
+.image {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.author {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.authorBlock {
+  display: flex;
+  align-items: center;
+}
+
+.authorBlock img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid rgb(154, 154, 154);
+}
+
+.authorData {
+  display: flex;
+  flex-direction: column;
+}
+
+.authorBlock .authorName {
+  font-size: 16px;
+}
+
+.publishedDate {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.publishedDateLight {
+  color: rgba(0, 0, 0, 0.726);
+}
+.publishedDateDark {
+  color: rgb(142, 142, 142);
+}
+
+.likeBlock button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.likeCount {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
